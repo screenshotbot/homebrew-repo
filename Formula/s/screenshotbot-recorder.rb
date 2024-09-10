@@ -5,8 +5,8 @@ class ScreenshotbotRecorder < Formula
   sha256 "7fcd8fbf9b0852317c9764c7287b89613b6b9b90add41056a5412e46e89e6086"
 
   def install
-    system "ls"
-    system "pwd"
+    system "cp","recorder","#{bin}/screenshotbot-recorder"
+    system "cp","recorder.lwheap", "#{bin}/screenshotbot-recorder.lwheap"
   end
 
 
