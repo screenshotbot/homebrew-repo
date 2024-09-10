@@ -6,6 +6,7 @@ class ScreenshotbotRecorder < Formula
 
   def install
     system "ls"
+    system "pwd"
   end
 
 
