@@ -2,7 +2,7 @@ class ScreenshotbotRecorder < Formula
   desc "The Screenshotbot Recorder tool"
   homepage "https://screenshotbot.io"
   url "https://cdn.screenshotbot.io/artifact/releases/2.8.9/screenshotbot-homebrew.tar.gz"
-  sha256 "6c7ba5e167bf34e413b1a1738e2b4da9f38228bf8688ea3b1f40e4f8d8735853"
+  sha256 "7fcd8fbf9b0852317c9764c7287b89613b6b9b90add41056a5412e46e89e6086"
 
   def install
     system "ls"
